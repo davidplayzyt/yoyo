@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Caption</title>
+	</head>
+	<style>
+	table{
+	border:2px solid red;
+	height:340px;
+	width:75%;
+	margin:20px;
+	}
+	tr,th,td{
+	border:2px solid green;
+	}
+	</style>
+	<body>
+	<table>
+	<caption style="text-align:center;">The caption describes the table.</caption>
+	<thead>
+		<tr>
+			<th colspan="3">Weekend Schedual</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+			<td><br></td>
+			<th>Saturday</th>
+			<th>Sunday</th>
+		</tr>
+		<tr>
+			<th>Morning</th>
+			<td rowspan="2" style="text-align:center;">Work</td>
+			<td rowspan="3" style="text-align:center;">Relax</td>
+		</tr>
+		<tr>
+			<th>Afternoon</th>
+		</tr>
+		<tr>
+			<th>Evening</th>
+			<td style="text-align:center;">Dinner</td>
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr>
+			<td colspan="3" style="text-align:center;">The fine print or summary of the table</td>
+		</tr>
+	</tfoot>
+	</table>
+	</body>
+</html>
